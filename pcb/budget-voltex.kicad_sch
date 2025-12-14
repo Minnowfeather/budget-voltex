@@ -3717,7 +3717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3a06dd-1013-4b63-8e45-bfac88984f28")
-		(property "Reference" "KnobL1"
+		(property "Reference" "KnobR"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -3733,7 +3733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0006A-IPC_A"
+		(property "Footprint" "TMAG5273A1QDBVR:DBV0006A-IPC_A"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "KnobL1")
+					(reference "KnobR")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bd6ede4-f0f5-4bf5-9250-120415065886")
-		(property "Reference" "FX-L1"
+		(property "Reference" "FX-R1"
 			(at 82.55 152.4 0)
 			(effects
 				(font
@@ -3850,7 +3850,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "FX-L1")
+					(reference "FX-R1")
 					(unit 1)
 				)
 			)
@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3481d1de-af8c-42d2-b19c-d69117878aa8")
-		(property "Reference" "Start1"
+		(property "Reference" "Start"
 			(at 95.25 125.7299 90)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "Start1")
+					(reference "Start")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f1f84c-b320-4c59-9108-b0558c53c352")
-		(property "Reference" "KnobR1"
+		(property "Reference" "KnobL"
 			(at 158.75 78.74 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0006A-IPC_A"
+		(property "Footprint" "TMAG5273A1QDBVR:DBV0006A-IPC_A"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -4281,7 +4281,7 @@
 		(instances
 			(project ""
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "KnobR1")
+					(reference "KnobL")
 					(unit 1)
 				)
 			)
@@ -4707,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95ad1c40-262a-41f9-b21b-7c065980132b")
-		(property "Reference" "FX-R1"
+		(property "Reference" "FX-L1"
 			(at 109.22 151.1299 90)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "FX-R1")
+					(reference "FX-L1")
 					(unit 1)
 				)
 			)

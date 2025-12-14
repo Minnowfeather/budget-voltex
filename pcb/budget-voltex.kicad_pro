@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.6,
+          "height": 0.8,
           "width": 1.6
         },
         "silk_line_width": 0.1,
@@ -52,7 +52,20 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|148960200|40725200|d425885b-2716-4822-aefe-d70a8e3b1290|459ebd58-2757-42e6-953c-65481ad47800",
+          ""
+        ],
+        [
+          "clearance|154635200|40725200|3f05b853-67ee-4c20-abc2-96b79350a5f8|dbeed99b-7ae5-40b0-9213-63bce7e59cd2",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|151942800|127050800|aabe2a8b-2ed9-4149-aa60-5af366e423ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
