@@ -8,14 +8,14 @@ A DIY PCB aiming to be as cheap to produce as possible, while not compromising o
 
 # BOM
 
-| Qty | Part | Link |
-| --- | ---- | ---- |
-| 1 | Raspberry Pi Pico | tbd|
+| Qty | Part              | Link |
+| --- | ----------------- | ---- |
+| 1   | Raspberry Pi Pico | tbd  |
 
 # ToDo
 
-__V2__
+**V2**
 
-- LED support
-- Migrate to choc/omni switch footprint
-- Any bugfixes
+- [ ] LED support
+- [x] Migrate to choc/omni switch footprint
+- [ ] Any bugfixes
