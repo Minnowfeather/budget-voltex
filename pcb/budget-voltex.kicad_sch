@@ -3373,28 +3373,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 190.5 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5aaf2fc3-23e6-4e7b-a57f-d317cedb04eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 72.39 111.76 270)
@@ -3417,7 +3395,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SCL"
 		(shape input)
 		(at 189.23 71.12 0)
 		(fields_autoplaced yes)
@@ -3427,9 +3405,31 @@
 			)
 			(justify left)
 		)
-		(uuid "b7f8e866-1b1a-41a0-8ce6-105efa639c99")
+		(uuid "c8c1cf1e-88ba-43d9-8f24-de5027cec2f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7833 71.12 0)
+			(at 195.7228 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 190.5 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbf11f8e-7cda-4476-a4c6-03ffad3ad69f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0533 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3a06dd-1013-4b63-8e45-bfac88984f28")
-		(property "Reference" "KnobR"
+		(property "Reference" "KnobR1"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "KnobR")
+					(reference "KnobR1")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 76.2 152.4 0)
 			(effects
 				(font
@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3481d1de-af8c-42d2-b19c-d69117878aa8")
-		(property "Reference" "Start"
+		(property "Reference" "Start1"
 			(at 95.25 125.7299 90)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 92.71 127 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 		(instances
 			(project "sdvx-slim"
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "Start")
+					(reference "Start1")
 					(unit 1)
 				)
 			)
@@ -3954,7 +3954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 114.3 140.97 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f1f84c-b320-4c59-9108-b0558c53c352")
-		(property "Reference" "KnobL"
+		(property "Reference" "KnobL1"
 			(at 158.75 78.74 0)
 			(effects
 				(font
@@ -4281,7 +4281,7 @@
 		(instances
 			(project ""
 				(path "/f61fff6d-f3d6-4025-b479-f6b910efe925"
-					(reference "KnobL")
+					(reference "KnobL1")
 					(unit 1)
 				)
 			)
@@ -4381,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 68.58 140.97 0)
 			(effects
 				(font
@@ -4519,7 +4519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "keyswitches:SW_PG1350"
 			(at 106.68 152.4 0)
 			(effects
 				(font
