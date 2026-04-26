@@ -2,3 +2,4 @@
 gerber_to_order/*
 *.lck
 fp-info-cache
+.history

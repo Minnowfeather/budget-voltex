@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_SMD"
+		(property "Footprint" "minnowfeather-custom-fp:RaspberryPi_Pico_SMD_Modified"
 			(at 134.62 82.55 0)
 			(effects
 				(font
